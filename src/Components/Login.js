@@ -50,7 +50,7 @@ export const Login = () => {
                             </form>
                             <hr/>
                             <div class="text-center">
-                                <a class="small" href="forgot-password.html">¿Olvidaste tu contraseña?</a>
+                                <Link to="/Forgotpassword" class="small">¿Olvidaste tu contraseña?</Link>
                             </div>
                             <div class="text-center">
                                 <Link to="/Register" class="small">¿Aún no tienes cuenta?</Link>
