@@ -39,16 +39,8 @@ export const Login = () => {
                                 </div>
                                 <Link to="/Tabla" className="btn btn-primary btn-user btn-block">
                                     Iniciar sesión
-                                </Link>
-                                <hr/>
-                                <a href="index.html" className="btn btn-google btn-user btn-block">
-                                    <i className="fab fa-google fa-fw"></i> Iniciar con Google
-                                </a>
-                                <a href="index.html" className="btn btn-facebook btn-user btn-block">
-                                    <i className="fab fa-facebook-f fa-fw"></i> Iniciar con Facebook
-                                </a>
-                            </form>
-                            <hr/>
+                                </Link>                             
+                            </form>                            
                             <div className="text-center">
                                 <Link to="/Forgotpassword" className="small">¿Olvidaste tu contraseña?</Link>
                             </div>

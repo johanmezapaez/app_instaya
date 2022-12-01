@@ -15,15 +15,11 @@ export const Register = () => {
                                 <h1 className="h4 text-gray-900 mb-4">Crear tu Cuenta!</h1>
                             </div>
                             <form className="user">
-                                <div className="form-group row">
-                                    <div className="col-sm-6 mb-3 mb-sm-0">
+                                <div className="form-group">
+                                    
                                         <input type="text" className="form-control form-control-user" id="exampleFirstName"
-                                            placeholder="Nombre"/>
-                                    </div>
-                                    <div className="col-sm-6">
-                                        <input type="text" className="form-control form-control-user" id="exampleLastName"
-                                            placeholder="Apellido"/>
-                                    </div>
+                                            placeholder="Nombre completo"/>
+                                                                       
                                 </div>
                                 <div className="form-group">
                                     <input type="email" className="form-control form-control-user" id="exampleInputEmail"
@@ -41,16 +37,8 @@ export const Register = () => {
                                 </div>
                                 <a href="login.html" className="btn btn-primary btn-user btn-block">
                                     Crear cuenta
-                                </a>
-                                <hr/>
-                                <a href="index.html" className="btn btn-google btn-user btn-block">
-                                    <i className="fab fa-google fa-fw"></i> Registrate con Google
-                                </a>
-                                <a href="index.html" className="btn btn-facebook btn-user btn-block">
-                                    <i className="fab fa-facebook-f fa-fw"></i> Registrate con Facebook
-                                </a>
-                            </form>
-                            <hr/>
+                                </a>                               
+                            </form>                            
                             <div className="text-center">
                                 <Link to ="/Login" className="small"> ¿Ya tienes cuenta? Entra aquí!</Link>
                             </div>
