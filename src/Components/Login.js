@@ -37,7 +37,7 @@ export const Login = () => {
                                             Me</label>
                                     </div>
                                 </div>
-                                <Link to="/index" className="btn btn-primary btn-user btn-block">
+                                <Link to="/Tabla" className="btn btn-primary btn-user btn-block">
                                     Iniciar sesión
                                 </Link>
                                 <hr/>
