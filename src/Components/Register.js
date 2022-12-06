@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link} from "react-router-dom";
-export const Register = () => {
+  const Register = () => {
   return (
     <div className="container">
 
@@ -63,3 +63,4 @@ export const Register = () => {
     </div>
   )
 }
+export default Register

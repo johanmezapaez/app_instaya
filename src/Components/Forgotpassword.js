@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link} from "react-router-dom";
-export const Forgotpassword = () => {
+
+const Forgot1_password = () => {
   return (
     <div className="container">
 
@@ -50,3 +51,4 @@ export const Forgotpassword = () => {
     </div>
   )
 }
+export default Forgot1_password

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link} from "react-router-dom";
 
-  const Create = () => {
+const Edit_Order = () => {
   return (
     <div className="container">
 
@@ -13,7 +13,7 @@ import { Link} from "react-router-dom";
                     <div className="col-lg-12">
                         <div className="p-5">
                             <div className="text-center">
-                                <h1 className="h3 text-gray-900 mb-4">Registro de orden</h1>
+                                <h1 className="h3 text-gray-900 mb-4">Actualizar de orden</h1>
                             </div>
                             <form className="user">
                             {/*Fecha y Hora*/}
@@ -124,7 +124,7 @@ import { Link} from "react-router-dom";
                                 </div>
                                 <div className="col-sm-3">
                                 <Link to="/tabla" className="btn btn-primary btn-user btn-block">
-                                    Crear orden
+                                    Actualizar orden
                                 </Link>
                                 </div>                               
                             </form>
@@ -137,4 +137,4 @@ import { Link} from "react-router-dom";
     </div>
   )
 }
-export default Create
+export default Edit_Order

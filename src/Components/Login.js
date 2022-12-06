@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link} from "react-router-dom";
-export const Login = () => {
+
+const Login = () => {
   return (
     <div>
 <div className="container">
@@ -69,3 +70,4 @@ export const Login = () => {
     </div>
   )
 }
+export default Login
